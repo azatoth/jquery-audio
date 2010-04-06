@@ -1,0 +1,37 @@
+<?xml version="1.1" charset="UTF-8"?>
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<script src="http://js.azatoth.net/libs/jquery/1.4.2/jquery.js"></script>
+		<script src="http://js.azatoth.net/libs/jquery-ui/1.8rc3/ui/jquery-ui.js"></script>
+		<script src="jquery.audio.js"></script>
+		<link rel="stylesheet" href="http://js.azatoth.net/libs/jquery-ui/1.8rc3/themes/base/jquery-ui.css" />
+		<link rel="stylesheet" href="jquery.audio.css" />
+		<title>jQuery UI Audio test</title>
+		<style>
+			#foo {
+				width: 854px;
+				height: 480px;
+			}
+		</style>
+		<script type="text/javascript"
+			src="http://jqueryui.com/themeroller/themeswitchertool/">
+		</script>
+		<script>
+			$(function(){
+				$('#switcher').themeswitcher();
+				$('audio').audio();
+			});
+		</script>
+
+	</head>
+	<body>
+		<audio>
+			<source src="http://stream.azatoth.net/Ludwig_van_Beethoven_-_Overtüre_c-moll,_op._62.ogg" type="audio/ogg"/>
+		</audio>
+		<div>From <a href="http://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_Overt%C3%BCre_c-moll,_op._62.ogg">http://commons.wikimedia.org/wiki/File:Ludwig van Beethoven - Overtüre c-moll, op. 62.ogg</a></div>
+		<div id="switcher"></div>
+
+	</body>
+</html>

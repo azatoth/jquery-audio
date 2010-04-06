@@ -1,0 +1,100 @@
+.ui-audio-control {
+	width: 320px;
+	height: 40px;
+	position: absolute;
+	opacity: .8;
+}
+.ui-audio-progress {
+	font-family: monospace;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-size: 10px;
+}
+
+.ui-audio-mute {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+
+.ui-audio-play {
+	position: absolute;
+	left: 150px;
+	top: 5px;
+}
+.ui-audio-seek-prev {
+	position: absolute;
+	left: 130px;
+	top: 5px;
+}
+.ui-audio-seek-next {
+	position: absolute;
+	left: 170px;
+	top: 5px;
+}
+.ui-audio-volume-slider {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	width: 60px;
+}
+.ui-audio-scrubber-slider {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	width: 200px;
+}
+
+.ui-audio-scrubber-slider-hover {
+	font-family: monospace;
+	position: absolute;
+	font-size: 10px;
+}
+
+.ui-audio-scrubber-slider, .ui-audio-volume-slider {
+	height: .3em;
+}
+.ui-audio-scrubber-slider .ui-slider-handle, .ui-audio-volume-slider .ui-slider-handle {
+	width: .6em;
+	height: .4em;
+	top: -.1em;
+	margin-left: -.3em;
+}
+
+.ui-audio-buffer-status {
+	position: absolute;
+	width: 0;
+	top: 0;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	opacity: .2;
+	background: #000;
+}
+
+.ui-audio-spinner {
+	position: absolute;
+	background-image: url("spinner32.png");
+	height: 32px;
+	width: 992px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.ui-audio-spinner-container {
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	z-index: 9999;
+}
+
+.ui-audio-widget {
+	position: relative;
+	width: 320px;
+	height: 40px;
+}
