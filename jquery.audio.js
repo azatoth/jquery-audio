@@ -103,8 +103,8 @@ $.widget("ui.audio", {
 			 * @private
 			 */
 			self._wrapperElement = self.element.parent();
-			self._wrapperElement.width( self.element.outerWidth(true) );
-			self._wrapperElement.height( self.element.outerHeight(true) );
+			//self._wrapperElement.width( self.element.outerWidth(true) );
+			//self._wrapperElement.height( self.element.outerHeight(true) );
 
 			/**
 			 * @type {!Object}
@@ -407,7 +407,7 @@ $.widget("ui.audio", {
 					'at': 'top',
 					'of': elem,
 					'offset': '0 -10',
-					'collision': 'none'
+					'collision': 'fit'
 				}
 			);
 
@@ -474,7 +474,7 @@ $.widget("ui.audio", {
 				.position({
 						'my': 'center',
 						'at': 'center',
-						'of': self.element,
+						'of': self._wrapperElement,
 						'collision': 'none'
 					}
 				).fadeIn('fast');

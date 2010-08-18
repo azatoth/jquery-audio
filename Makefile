@@ -10,11 +10,11 @@ JS_COMPILER_ARGS = \
 CSS_COMPILER = csstidy
 CSS_COMPILER_ARGS = --compress_colors=true --compress_font-weight=true --remove_last_\;=true --merge_selectors=2 --optimise_shorthands=2 --template=highest
 
-js_files = jquery.video.js
+js_files = jquery.audio.js
 js_min_files = $(patsubst %.js,%.min.js,$(js_files))
 js_min_gz_files = $(patsubst %.js,%.js.gz,$(js_min_files))
 
-css_files = jquery.video.css
+css_files = jquery.audio.css
 css_min_files = $(patsubst %.css,%.min.css,$(css_files))
 css_min_gz_files = $(patsubst %.css,%.css.gz,$(css_min_files))
 
